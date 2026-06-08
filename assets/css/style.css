@@ -482,3 +482,35 @@ html, body {
   margin: 0 auto 25px; /* 中央揃え＋下に余白 */
   filter: drop-shadow(0 0 25px rgba(255, 255, 255, 0.25));
 }
+.lb-overlay,
+.lightboxOverlay {
+  z-index: 99999 !important;
+}
+/* ★ Lightbox を最前面に強制して背景クリックを有効化 */
+.lightboxOverlay,
+.lb-overlay,
+.lb-dataContainer,
+.lb-outerContainer {
+  z-index: 99999 !important;
+}
+.lightboxOverlay {
+  cursor: pointer;
+}
+/* ★ Lightbox が閉じない最終原因の修正 */
+.cast-photo img {
+  pointer-events: auto !important;
+}
+
+/* Lightbox を完全最前面に固定 */
+.lightboxOverlay,
+.lb-overlay,
+.lb-dataContainer,
+.lb-outerContainer,
+.lb-container {
+  z-index: 999999 !important;
+  pointer-events: auto !important;
+}
+
+.lightboxOverlay {
+  cursor: pointer !important;
+}
