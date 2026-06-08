@@ -5,7 +5,11 @@
   <title>CAST | HOST CLUB VAMP</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- ★ Lightbox CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 </head>
+
 <body class="theme-dark page-cast">
 
   <div class="bg-layer bg-moon-small"></div>
@@ -31,162 +35,209 @@
       <p class="page-subcopy">今夜、あなたを魅了する吸血鬼たち。</p>
     </section>
 
-    <!-- ★ cast-grid は 1 つだけにする（ここが最重要） -->
     <section class="cast-grid">
 
-      <!-- ここから全キャストを並べる（順不同OK） -->
+      <!-- ★ ここから全キャスト Lightbox 対応版 -->
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/yuzukiri.png" alt="柚霧"></div>
+        <a href="assets/img/cast/yuzukiri.png" data-lightbox="cast" data-title="柚霧 — 赤い夜の主">
+          <div class="cast-photo"><img src="assets/img/cast/yuzukiri.png" alt="柚霧"></div>
+        </a>
         <h2 class="cast-name">柚霧</h2>
         <p class="cast-copy">「赤い夜の主」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/hisui.png" alt="緋水"></div>
+        <a href="assets/img/cast/hisui.png" data-lightbox="cast" data-title="緋水 — 赤い夜の息">
+          <div class="cast-photo"><img src="assets/img/cast/hisui.png" alt="緋水"></div>
+        </a>
         <h2 class="cast-name">緋水</h2>
         <p class="cast-copy">「赤い夜の息」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/nemu.png" alt="ねむ"></div>
+        <a href="assets/img/cast/nemu.png" data-lightbox="cast" data-title="ねむ — 赤い夜風">
+          <div class="cast-photo"><img src="assets/img/cast/nemu.png" alt="ねむ"></div>
+        </a>
         <h2 class="cast-name">ねむ</h2>
         <p class="cast-copy">「赤い夜風」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/toako.png" alt="とあこ（黒服）"></div>
+        <a href="assets/img/cast/toako.png" data-lightbox="cast" data-title="とあこ（黒服） — 赤い夜の案内人">
+          <div class="cast-photo"><img src="assets/img/cast/toako.png" alt="とあこ（黒服）"></div>
+        </a>
         <h2 class="cast-name">とあこ（黒服）</h2>
         <p class="cast-copy">「赤い夜の案内人」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/yuu.png" alt="ゆう（黒服）"></div>
+        <a href="assets/img/cast/yuu.png" data-lightbox="cast" data-title="ゆう（黒服） — 暗い夜の案内人">
+          <div class="cast-photo"><img src="assets/img/cast/yuu.png" alt="ゆう（黒服）"></div>
+        </a>
         <h2 class="cast-name">ゆう（黒服）</h2>
         <p class="cast-copy">「暗い夜の案内人」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/banira.png" alt="ばにら"></div>
+        <a href="assets/img/cast/banira.png" data-lightbox="cast" data-title="ばにら — 甘い闇の主">
+          <div class="cast-photo"><img src="assets/img/cast/banira.png" alt="ばにら"></div>
+        </a>
         <h2 class="cast-name">ばにら</h2>
         <p class="cast-copy">「甘い闇の主」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/rei.png" alt="れい"></div>
+        <a href="assets/img/cast/rei.png" data-lightbox="cast" data-title="れい — 闇を揺らす息">
+          <div class="cast-photo"><img src="assets/img/cast/rei.png" alt="れい"></div>
+        </a>
         <h2 class="cast-name">れい</h2>
         <p class="cast-copy">「闇を揺らす息」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/genya.png" alt="幻夜"></div>
+        <a href="assets/img/cast/genya.png" data-lightbox="cast" data-title="幻夜 — 夜の誘惑者">
+          <div class="cast-photo"><img src="assets/img/cast/genya.png" alt="幻夜"></div>
+        </a>
         <h2 class="cast-name">幻夜</h2>
         <p class="cast-copy">「夜の誘惑者」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/ao.png" alt="蒼"></div>
+        <a href="assets/img/cast/ao.png" data-lightbox="cast" data-title="蒼 — 夜に落ちる音">
+          <div class="cast-photo"><img src="assets/img/cast/ao.png" alt="蒼"></div>
+        </a>
         <h2 class="cast-name">蒼</h2>
         <p class="cast-copy">「夜に落ちる音」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/toshi.png" alt="翔信(とし)"></div>
+        <a href="assets/img/cast/toshi.png" data-lightbox="cast" data-title="翔信(とし) — 夜の導火線">
+          <div class="cast-photo"><img src="assets/img/cast/toshi.png" alt="翔信(とし)"></div>
+        </a>
         <h2 class="cast-name">翔信(とし)</h2>
         <p class="cast-copy">「夜の導火線」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/ken.png" alt="ken"></div>
+        <a href="assets/img/cast/ken.png" data-lightbox="cast" data-title="ken — 闇に咲く灯">
+          <div class="cast-photo"><img src="assets/img/cast/ken.png" alt="ken"></div>
+        </a>
         <h2 class="cast-name">ken</h2>
         <p class="cast-copy">「闇に咲く灯」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/kagari.png" alt="篝"></div>
+        <a href="assets/img/cast/kagari.png" data-lightbox="cast" data-title="篝 — 赤い夜紡ぎ">
+          <div class="cast-photo"><img src="assets/img/cast/kagari.png" alt="篝"></div>
+        </a>
         <h2 class="cast-name">篝</h2>
         <p class="cast-copy">「赤い夜紡ぎ」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/yuzuriha.png" alt="楪コウ"></div>
+        <a href="assets/img/cast/yuzuriha.png" data-lightbox="cast" data-title="楪コウ — 夜の鍵を持つ">
+          <div class="cast-photo"><img src="assets/img/cast/yuzuriha.png" alt="楪コウ"></div>
+        </a>
         <h2 class="cast-name">楪コウ</h2>
         <p class="cast-copy">「夜の鍵を持つ」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/nemi.png" alt="覚"></div>
+        <a href="assets/img/cast/nemi.png" data-lightbox="cast" data-title="覚 — 月下の囁き">
+          <div class="cast-photo"><img src="assets/img/cast/nemi.png" alt="覚"></div>
+        </a>
         <h2 class="cast-name">覚</h2>
         <p class="cast-copy">「月下の囁き」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/nokusu.png" alt="ノクス"></div>
+        <a href="assets/img/cast/nokusu.png" data-lightbox="cast" data-title="ノクス — 夜に落とす手">
+          <div class="cast-photo"><img src="assets/img/cast/nokusu.png" alt="ノクス"></div>
+        </a>
         <h2 class="cast-name">ノクス</h2>
         <p class="cast-copy">「夜に落とす手」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/nekomaru.png" alt="猫丸"></div>
+        <a href="assets/img/cast/nekomaru.png" data-lightbox="cast" data-title="猫丸 — 静かな毒">
+          <div class="cast-photo"><img src="assets/img/cast/nekomaru.png" alt="猫丸"></div>
+        </a>
         <h2 class="cast-name">猫丸</h2>
         <p class="cast-copy">「静かな毒」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/tukasa.png" alt="司"></div>
+        <a href="assets/img/cast/tukasa.png" data-lightbox="cast" data-title="司 — 夜を抱く影">
+          <div class="cast-photo"><img src="assets/img/cast/tukasa.png" alt="司"></div>
+        </a>
         <h2 class="cast-name">司</h2>
         <p class="cast-copy">「夜を抱く影」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/fakctor.png" alt="fakctor"></div>
+        <a href="assets/img/cast/fakctor.png" data-lightbox="cast" data-title="fakctor — 夜を奪う声">
+          <div class="cast-photo"><img src="assets/img/cast/fakctor.png" alt="fakctor"></div>
+        </a>
         <h2 class="cast-name">fakctor</h2>
         <p class="cast-copy">「夜を奪う声」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/kanase.png" alt="奏瀬"></div>
+        <a href="assets/img/cast/kanase.png" data-lightbox="cast" data-title="奏瀬 — 赤い微熱">
+          <div class="cast-photo"><img src="assets/img/cast/kanase.png" alt="奏瀬"></div>
+        </a>
         <h2 class="cast-name">奏瀬</h2>
         <p class="cast-copy">「赤い微熱」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/haro.png" alt="haro"></div>
+        <a href="assets/img/cast/haro.png" data-lightbox="cast" data-title="haro — 赤い誘い手">
+          <div class="cast-photo"><img src="assets/img/cast/haro.png" alt="haro"></div>
+        </a>
         <h2 class="cast-name">haro</h2>
         <p class="cast-copy">「赤い誘い手」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/etosetora.png" alt="えとせとら"></div>
+        <a href="assets/img/cast/etosetora.png" data-lightbox="cast" data-title="えとせとら — 影を揺らす男">
+          <div class="cast-photo"><img src="assets/img/cast/etosetora.png" alt="えとせとら"></div>
+        </a>
         <h2 class="cast-name">えとせとら</h2>
         <p class="cast-copy">「影を揺らす男」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/mu-kun.png" alt="むーくん"></div>
+        <a href="assets/img/cast/mu-kun.png" data-lightbox="cast" data-title="むーくん — 闇の微笑み">
+          <div class="cast-photo"><img src="assets/img/cast/mu-kun.png" alt="むーくん"></div>
+        </a>
         <h2 class="cast-name">むーくん</h2>
         <p class="cast-copy">「闇の微笑み」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/utti-.png" alt="うっちー"></div>
+        <a href="assets/img/cast/utti-.png" data-lightbox="cast" data-title="うっちー — 影を抱く男">
+          <div class="cast-photo"><img src="assets/img/cast/utti-.png" alt="うっちー"></div>
+        </a>
         <h2 class="cast-name">うっちー</h2>
         <p class="cast-copy">「影を抱く男」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/furapeti-no.png" alt="ふらぺちーの"></div>
+        <a href="assets/img/cast/furapeti-no.png" data-lightbox="cast" data-title="ふらぺちーの — none">
+          <div class="cast-photo"><img src="assets/img/cast/furapeti-no.png" alt="ふらぺちーの"></div>
+        </a>
         <h2 class="cast-name">ふらぺちーの</h2>
         <p class="cast-copy">「none」</p>
       </article>
 
       <article class="cast-card">
-        <div class="cast-photo"><img src="assets/img/cast/nayu.png" alt="なゆ（黒服）"></div>
+        <a href="assets/img/cast/nayu.png" data-lightbox="cast" data-title="なゆ（黒服） — none">
+          <div class="cast-photo"><img src="assets/img/cast/nayu.png" alt="なゆ（黒服）"></div>
+        </a>
         <h2 class="cast-name">なゆ（黒服）</h2>
         <p class="cast-copy">「none」</p>
       </article>
-
-      <!-- ★ 必要ならここに追加していけばOK -->
 
     </section>
   </main>
@@ -194,6 +245,9 @@
   <footer class="site-footer">
     <p>© HOST CLUB VAMP — 赤い月の下で、お待ちしています。</p>
   </footer>
+
+  <!-- ★ Lightbox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
 </body>
 </html>

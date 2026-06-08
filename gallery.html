@@ -5,7 +5,11 @@
   <title>GALLERY | HOST CLUB VAMP</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- ★ Lightbox CSS 追加 -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 </head>
+
 <body class="theme-dark page-gallery">
 
   <div class="bg-layer bg-moon-gallery"></div>
@@ -32,17 +36,34 @@
     </section>
 
     <section class="gallery-grid">
+
+      <!-- ★ Lightbox 対応版（クリックで拡大） -->
       <figure class="gallery-item">
-        <img src="assets/img/gallery/photo1.jpg.png" alt="">
+        <a href="assets/img/gallery/photo1.jpg.png" data-lightbox="gallery" data-title="静かに始まる宴">
+          <img src="assets/img/gallery/photo1.jpg.png" alt="静かに始まる宴">
+        </a>
         <figcaption>静かに始まる宴</figcaption>
       </figure>
-      <!-- 追加していく -->
+
+      <!-- ここに同じ形式で追加していく -->
+      <!--
+      <figure class="gallery-item">
+        <a href="assets/img/gallery/photo2.png" data-lightbox="gallery" data-title="説明文">
+          <img src="assets/img/gallery/photo2.png" alt="説明文">
+        </a>
+        <figcaption>説明文</figcaption>
+      </figure>
+      -->
+
     </section>
   </main>
 
   <footer class="site-footer">
     <p>© VAMP LOUNGE — 赤い月の下で、お待ちしています。</p>
   </footer>
+
+  <!-- ★ Lightbox JS 追加 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
 </body>
 </html>
