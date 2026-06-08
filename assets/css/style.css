@@ -500,7 +500,6 @@ html, body {
 .cast-photo img {
   pointer-events: auto !important;
 }
-
 /* Lightbox を完全最前面に固定 */
 .lightboxOverlay,
 .lb-overlay,
@@ -510,7 +509,24 @@ html, body {
   z-index: 999999 !important;
   pointer-events: auto !important;
 }
-
 .lightboxOverlay {
   cursor: pointer !important;
+}
+/* ★ CAST カードが Lightbox を邪魔しないようにする */
+.cast-card {
+  position: relative;
+  z-index: 1 !important;
+}
+/* ★ 赤く光るリンク（ACCESS専用） */
+.access-info a {
+  color: #ff4d6d;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: .05em;
+  transition: color .3s ease, text-shadow .3s ease;
+}
+
+.access-info a:hover {
+  color: #ff99aa;
+  text-shadow: 0 0 8px rgba(255, 0, 50, .8), 0 0 12px rgba(255, 0, 80, .);
 }
